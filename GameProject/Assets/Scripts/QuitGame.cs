@@ -10,9 +10,9 @@ public class QuitGame : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-            Application.Quit();
             Debug.Log("ESCAPE -> Game is quit");
-
+            Application.Quit();
+            
         }
     }
 }
